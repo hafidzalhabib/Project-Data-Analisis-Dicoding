@@ -121,6 +121,8 @@ pay_ = pay_(new_df)
 rfm_df = rfm_df(new_df)
 
 st.header('E-Commerce Dashboard :sparkles:')
+st.caption("""[Sumber Data](%s)"""
+            % "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce")
 
 st.subheader('Daily Orders')
 cols1, cols2 = st.columns(2)
