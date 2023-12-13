@@ -254,7 +254,7 @@ with co3:
     avg_frequency = round(rfm_df.monetary.mean(),2)
     st.metric("Average Monetary", value=avg_frequency)
 
-fig6, ax = plt.subplots(nrows=1, ncols=3, figsize=(15, 10))
+# fig6, ax = plt.subplots(nrows=1, ncols=3, figsize=(15, 10))
 
 colors = ["#72BCD4", "#72BCD4", "#72BCD4", "#72BCD4", "#72BCD4"]
 plt.subplot(2, 2, 1)
@@ -280,4 +280,4 @@ plt.title("By Monetary", loc="center", fontsize=18)
 plt.suptitle("Best Customer Based on RFM Parameters (customer_id)", fontsize=20)
 plt.tight_layout()
 # plt.show()
-# st.pyplot(fig6)
+st.pyplot()
