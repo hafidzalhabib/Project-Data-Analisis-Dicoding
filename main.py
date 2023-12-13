@@ -5,6 +5,7 @@ import seaborn as sns
 from matplotlib.ticker import ScalarFormatter
 import streamlit as st
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
 formatter = ScalarFormatter()
 formatter.set_scientific(False)
 
